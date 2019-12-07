@@ -20,7 +20,7 @@ def find_the_cheese(array)
 while i < array.length do
 if array.include?(cheese_types)
   puts "#{array[i].capitalize}!" 
-
+end
 i += 1 
 end
 end
