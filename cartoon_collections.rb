@@ -18,7 +18,7 @@ def find_the_cheese(array)
   i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
 while i < array.length do
-if array.include?(cheese_types)
+if array.include?(cheese_types[i])
   puts "#{array[i].capitalize}!" 
 end
 i += 1 
