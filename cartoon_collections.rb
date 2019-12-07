@@ -19,7 +19,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 while i < array.length do
 if array.include?("cheddar")
-  return "#{cheese_types[i].capitalize}!" 
+  return "#{cheese_types[i]}" 
 end
 i += 1 
 end
